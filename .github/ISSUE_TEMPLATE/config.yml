@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 🔒 Report a security vulnerability
-    url: https://github.com/10pow6/public-bitglitch-issues-log/blob/main/SECURITY.md
-    about: Do NOT open a public issue. Read our security policy and disclose privately via Discord.
   - name: 💬 Community Discord
     url: https://bitglitch.tp.land
     about: Questions, help, and general discussion? Join us on Discord (linked in-game and on the site).
