@@ -1,0 +1,116 @@
+name: 🐛 Bug Report
+description: Report something that's broken or behaving unexpectedly in BitGlitch.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! 🐛
+
+        **Before you start:** please [search existing issues](https://github.com/10pow6/public-bitglitch-issues-log/issues?q=is%3Aissue) to avoid duplicates.
+
+        ⚠️ **Security issue?** Stop — do not file it here. See our [Security Policy](https://github.com/10pow6/public-bitglitch-issues-log/blob/main/SECURITY.md) and disclose privately via Discord.
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+        - label: This is not a security vulnerability (those go through the Security Policy, not here).
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+      placeholder: When I try to summon a Glitch from a 3-character URL, the screen freezes.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in the game?
+      description: Which part of BitGlitch is affected?
+      options:
+        - Summoning Glitches
+        - Inventory / Collection
+        - Shop
+        - Synthesis
+        - Equipment
+        - Hacks
+        - Combat — PvE Arena
+        - Combat — Arena PvP
+        - Combat — Training Rooms
+        - Daily Login / Rewards
+        - Account / Login
+        - Portal Coins / Economy
+        - UI / Display
+        - Other / Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us exactly how to trigger the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Do '...'
+        4. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+      description: Include any error messages you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or clip
+      description: Drag and drop images or a short video here if the bug is visual. (Optional but very helpful.)
+    validations:
+      required: false
+  - type: input
+    id: handle
+    attributes:
+      label: In-game handle (optional)
+      description: Helps us look into account-specific issues. Leave blank if you'd rather not share.
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop / Laptop
+        - Mobile phone
+        - Tablet
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser & OS
+      description: e.g. Chrome 124 on Windows 11, Safari on iOS 17
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Any other context, how often it happens, recent changes, etc.
+    validations:
+      required: false
