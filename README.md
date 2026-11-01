@@ -19,9 +19,23 @@ Pick the right template and fill in as much as you can:
 
 Before opening one, please [**search existing issues**](https://github.com/10pow6/public-bitglitch-issues-log/issues?q=is%3Aissue) — if your bug or idea already exists, add a 👍 or a comment instead of opening a duplicate. It helps us prioritize.
 
+## 🧭 Is this the right tracker?
+
+This tracker covers **BitGlitch**. Problems with your **10pow6 account** itself (sign‑up, sign‑in, MFA, passkeys) or **buying TP6** belong on the 10pow6 core tracker, and each product has its own:
+
+| Product | Tracker |
+|---------|---------|
+| 👤 **10pow6 Accounts** (sign‑up, sign‑in, MFA, passkeys, the TP6 wallet, connected apps) | [public-10pow6-issues-log](https://github.com/10pow6/public-10pow6-issues-log/issues/new/choose) |
+| 🌀 **TelePortals** (short links, My Portals, the Exchange) | [public-teleportals-issues-log](https://github.com/10pow6/public-teleportals-issues-log/issues/new/choose) |
+| 🌍 **Slapget** (the map, parcels, the desktop engine) | [public-slapget-issues-log](https://github.com/10pow6/public-slapget-issues-log/issues/new/choose) |
+
+Not sure? File it here and we'll move it.
+
 ## 🔒 Security issues
 
 **Do not** open a public issue for security vulnerabilities. [**Report it privately →**](https://github.com/10pow6/public-bitglitch-issues-log/security/advisories/new) (see [**SECURITY.md**](SECURITY.md) for what to include and what's out of scope).
+
+> ⚠️ Reports involving ways to get coins, items, or Glitches you didn't earn, bypassing payments or anti‑cheat, getting into someone else's account, or other players' data are **security‑sensitive**. Report those privately, not here.
 
 ## 💬 Want to chat instead?
 
@@ -43,5 +57,6 @@ Join the community on **Discord** (linked in‑game and on the [BitGlitch site](
 3. **Include steps** to reproduce, what you expected, and what actually happened.
 4. **Add screenshots or a short clip** when the bug is visual.
 5. **Tell us your setup** — browser, device, and (if relevant) your in‑game handle.
+6. **Never post secrets.** No passwords, recovery codes, authenticator codes, API keys, or payment details, ever. We will never ask for them.
 
 Thanks for helping make BitGlitch better! 🎮
