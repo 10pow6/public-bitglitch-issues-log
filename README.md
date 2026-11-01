@@ -21,7 +21,7 @@ Before opening one, please [**search existing issues**](https://github.com/10pow
 
 ## 🔒 Security issues
 
-**Do not** open a public issue for security vulnerabilities. See [**SECURITY.md**](SECURITY.md) for how to disclose privately.
+**Do not** open a public issue for security vulnerabilities. [**Report it privately →**](https://github.com/10pow6/public-bitglitch-issues-log/security/advisories/new) (see [**SECURITY.md**](SECURITY.md) for what to include and what's out of scope).
 
 ## 💬 Want to chat instead?
 
