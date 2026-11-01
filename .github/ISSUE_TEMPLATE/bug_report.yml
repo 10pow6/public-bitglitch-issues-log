@@ -33,6 +33,17 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Check your address bar. Beta addresses start with `beta.`.
+      options:
+        - Beta (beta.bitglitch.tp.land)
+        - Live (bitglitch.tp.land)
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
     id: area
     attributes:
       label: Where in the game?
@@ -49,7 +60,7 @@ body:
         - Combat — Training Rooms
         - Daily Login / Rewards
         - Account / Login
-        - Portal Coins / Economy
+        - TP6 / Economy
         - UI / Display
         - Other / Not sure
     validations:
